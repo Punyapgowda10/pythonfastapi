@@ -7,7 +7,7 @@ variables:
   pythonVersion: '3.10'
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'TestAgent'
 
 steps:
 - task: UsePythonVersion@0
